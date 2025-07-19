@@ -1,9 +1,15 @@
+// * React
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
+
+// * Layouts
+import Layout from '@layouts/Layout';
+
+// * Styles
+import '@styles/index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <Layout />
   </StrictMode>,
 );
